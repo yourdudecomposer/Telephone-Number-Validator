@@ -1,4 +1,5 @@
 :root {
+    --dark-purple: #7B03A6;
     --purple: #BF0AFF;
     --light-green: rgb(153, 255, 0);
     --dark-green: #64a600;
@@ -15,5 +16,6 @@
 
 body {
     background: var(--purple);
-
+    background: linear-gradient(180deg, var(--dark-purple), var(--purple));
+    height: 100vh;
 }

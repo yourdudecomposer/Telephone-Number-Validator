@@ -2,49 +2,51 @@ h1 {
     font-size: 1em;
     text-align: center;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     font-weight: normal;
-    margin-top: 3px;
+    margin-top: 20px;
 }
 
 
 input, button {
     border: none;
     border-radius: 5px;
+    width: 90%;
+    max-width: 300px;
+    height: 40px;
 }
 
 input {
     display: block;
     margin: 0 auto;
     font-size: 0.8em;
-    max-width: 250px;
-    width: 90%;
-    margin-bottom: 10px;
-
+    margin-bottom: 20px;
+    padding-left: 5px;
 }
 
 button {
     font-size: 0.8em;
     text-transform: uppercase;
-    max-width: 250px;
-    width: 90%;
     display: block;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 
 .img {
-    max-width: 250px;
+    max-width: 300px;
     width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 }
 
 img {
     margin-top: 20px;
     border-radius: 50%;
     width: 100px;
+    filter: blur(10px)
 }
 
 
@@ -62,9 +64,12 @@ img:nth-child(2) {
 }
 
 h2 {
-    width: 200px;
-    margin: 0 auto;
     text-align: center;
+    padding: 3px 8px;
     background: var(--red);
-    margin-top: 20px;
+    background: var(--dark-green);
+    rotate: 45deg;
+    position: absolute;
+    top: 40px;
+    left: 30%;
 }
