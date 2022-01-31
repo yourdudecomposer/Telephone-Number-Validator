@@ -1,0 +1,70 @@
+h1 {
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    margin-top: 3px;
+}
+
+
+input, button {
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.8em;
+    max-width: 250px;
+    width: 90%;
+    margin-bottom: 10px;
+
+}
+
+button {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    max-width: 250px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.img {
+    max-width: 250px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+img:nth-child(1) {
+    background: var(--light-green);
+
+}
+
+img:nth-child(2) {
+    background: rgb(128, 128, 128);
+    width: 95px;
+    height: 95px;
+    position: relative;
+    top: 2.5px;
+}
+
+h2 {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background: var(--red);
+    margin-top: 20px;
+}
