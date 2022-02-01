@@ -13,6 +13,8 @@ form.addEventListener('submit', (e) => {
     if (telephoneCheck(input.value)) valid();
     else unvalid();
     h2.style.display = 'block';
+    h2.style.top = "40px";
+    h2.style.left = '50%';
     input.value = '';
 })
 
@@ -28,8 +30,8 @@ function cleaner() {
 
 function valid() {
     h2.textContent = 'valid';
-    h2.style.top = "40px";
-    h2.style.left = "32%";
+    h2.style.marginLeft = '-64px';
+    h2.style.transform = 'rotate(335deg)';
     h2.style.background = 'var(--dark-green)';
     imgSmile.style.filter = 'blur(0px)';
 }
@@ -37,8 +39,7 @@ function valid() {
 
 function unvalid() {
     h2.textContent = 'unvalid';
-    h2.style.top = "40px";
-    h2.style.left = "30%";
+    h2.style.marginLeft = '-85px';
     h2.style.background = 'var(--red)';
     h2.style.transform = 'rotate(345deg)';
     imgSad.style.filter = 'blur(0px)';
