@@ -7,4 +7,11 @@ function telephoneCheck(str) {
     return reSimple.test(str);
 }
 
+const form = document.querySelector('form'),
+    input = document.querySelector('input'),
+    h2 = document.querySelector('h2'),
+    imgSmile = document.querySelector('img:nth-child(1)'),
+    imgSad = document.querySelector('img:nth-child(2)'),
+    btn = document.querySelector('button');
+
 

@@ -1,9 +1,9 @@
 h1 {
     font-size: 1em;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     margin-bottom: 35px;
-    font-weight: normal;
+    font-weight: bold;
     margin-top: 20px;
 }
 
@@ -69,12 +69,7 @@ img:nth-child(2) {
 h2 {
     text-align: center;
     padding: 3px 10px;
-    background: var(--red);
-    background: var(--dark-green);
-    rotate: 45deg;
     position: absolute;
-    top: 60px;
-    left: 30%;
     transform: rotate(335deg);
     font-size: 1.2em;
     font-weight: normal;
