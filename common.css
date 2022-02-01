@@ -15,7 +15,7 @@
 }
 
 body {
-    background: var(--purple);
+    background: white;
     background: linear-gradient(180deg, var(--dark-purple), var(--purple));
     height: 100vh;
 }
